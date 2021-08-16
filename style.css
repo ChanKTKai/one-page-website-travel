@@ -1,0 +1,38 @@
+*{margin:0;padding:0; list-style: none;box-sizing: border-box;font-family: 'Noto Sans TC', sans-serif;}
+.wrap{width: 1280px;margin:0 auto;}
+.banner{background-image: url('images/banner.png');width: 1280px;height: 477px;position: relative}
+article h2{text-align: center;padding-top:20px;}
+.banner h1{padding: 10px 50px;color: white}
+.sale{position: absolute;top:80px;right: 120px; }
+.up{width: 300px;height: 30px;background-color: #32C8FC;}
+.down{width: 250px;height: 180px;background-color:rgba(255,255,255,.6);margin:0 auto;}
+.down h2{color:#E4007F;}
+.down h2,.down p{text-align: center;font-size: 31px;line-height:1.5em }
+.down input{float: right; margin-right:20px;margin-top:5px;
+	background-color: #F8B62D;padding:3px 20px;border: none; }
+
+
+article{background-color: #EEEFEF;}
+article .contain{display: flex;flex-wrap:wrap;padding: 0 20px;justify-content: center;margin:20px 40px;}
+section .box{background-color: #dbdbdb;width: 40%;display: flex;margin:20px 40px;position: relative}
+article .contain .text{margin:10px auto;padding: 20px}
+section .box .bigsale{background-color: #F8B62D;width:100px;text-align: center;
+	position: absolute;bottom: 50px;right:50px;}
+
+article .travelsalon{background-color: #c6f0fc;padding: 50px;width: 100%;display: flex}
+article .travelsalon div{font-size: 50px;margin-top: 50px;}
+article .travelsalon div p{font-size: 50px;margin-left: 250px}
+
+article .content{background-color: #32c8fb;display: flex;padding: 30px  200px}
+article .content h2 {margin-left: 50px;margin-bottom: 20px;}
+article .content div{display: flex;flex-direction: column}
+article .content img{}
+article .content form{display: block;margin-left: 200px;margin-top: 120px;}
+article .content form input{width: 400px;border-radius: 5px;border:none;height: 25px;margin-bottom:20px }
+article .content form input[type=submit]{float: right;margin-top:5px;
+	background-color: #F8B62D;padding:3px 20px;border: none;width: 50%;}
+aside{width: 100%; }
+aside iframe{vertical-align:top}
+
+footer{background-color: #32c8fb;padding: 10px;display: flex;justify-content: flex-end}
+footer div{display: flex;flex-direction: column;margin-right: 20px;}
